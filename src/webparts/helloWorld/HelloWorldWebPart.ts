@@ -16,7 +16,8 @@ import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
 export interface IHelloWorldWebPartProps {
-  description: string;;
+  description: string;
+  //kommentar
 }
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart <IHelloWorldWebPartProps> {
