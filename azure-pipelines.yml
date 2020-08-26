@@ -24,8 +24,9 @@ steps:
   inputs:
     SonarCloud: 'SonarCloud'
     organization: 'testuser774'
-    scannerMode: 'CLI'
-    configMode: 'file'
+    scannerMode: 'MSBuild'
+    projectKey: 'testuser774_SonarCloudTestprojekt'
+    projectName: 'SonarCloudTestprojekt'
 
 - task: Gulp@1
   displayName: 'Gulp bundle'
