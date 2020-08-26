@@ -36,6 +36,13 @@ steps:
     arguments: '--ship'
     enableCodeCoverage: false
 
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+
 - task: Gulp@1
   displayName: 'Gulp package-solution'
   inputs:
@@ -43,9 +50,3 @@ steps:
     targets: 'package-solution'
     arguments: '--ship'
     enableCodeCoverage: false
-
-- task: SonarCloudAnalyze@1
-
-- task: SonarCloudPublish@1
-  inputs:
-    pollingTimeoutSec: '300'
