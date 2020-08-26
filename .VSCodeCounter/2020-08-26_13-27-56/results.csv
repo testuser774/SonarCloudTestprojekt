@@ -1,0 +1,8 @@
+"filename", "language", "TypeScript", "JavaScript", "JSON", "SCSS", "comment", "blank", "total"
+"c:\GIT\HelloWorldDemo\src\index.ts", "TypeScript", 0, 0, 0, 0, 1, 1, 2
+"c:\GIT\HelloWorldDemo\src\webparts\helloWorld\HelloWorldWebPart.manifest.json", "JSON", 0, 0, 20, 0, 4, 4, 28
+"c:\GIT\HelloWorldDemo\src\webparts\helloWorld\HelloWorldWebPart.module.scss", "SCSS", 0, 0, 0, 61, 3, 10, 74
+"c:\GIT\HelloWorldDemo\src\webparts\helloWorld\HelloWorldWebPart.ts", "TypeScript", 55, 0, 0, 0, 0, 7, 62
+"c:\GIT\HelloWorldDemo\src\webparts\helloWorld\loc\en-us.js", "JavaScript", 0, 7, 0, 0, 0, 0, 7
+"c:\GIT\HelloWorldDemo\src\webparts\helloWorld\loc\mystrings.d.ts", "TypeScript", 9, 0, 0, 0, 0, 2, 11
+"Total", "-", 64, 7, 20, 61, 8, 24, 184

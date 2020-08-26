@@ -1,7 +1,13 @@
 import { Version } from '@microsoft/sp-core-library';
 import {
   IPropertyPaneConfiguration,
-  PropertyPaneTextField
+  PropertyPaneTextField,
+  PropertyPaneCheckbox,
+  PropertyPaneDropdown,
+  PropertyPaneToggle,
+  PropertyPaneLabel,
+  PropertyPaneLink,
+  PropertyPaneSlider
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { escape } from '@microsoft/sp-lodash-subset';
@@ -10,7 +16,7 @@ import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
 export interface IHelloWorldWebPartProps {
-  description: string;
+  description: string;;
 }
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart <IHelloWorldWebPartProps> {
